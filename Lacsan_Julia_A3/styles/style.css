@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    background-color: #DACC98;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+*{ 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: left;
+    margin: 40px 20px 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .heading {
+width: 50%;
+padding-bottom: 10px;
+}
+
+.container .heading h1 span{
+    font-weight: 100;
+}
+
+.container .heading h1{
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    padding-bottom: 10px;
+    }
+    
+    .nav {
+        width: 100%;
+        float: left;
+        margin: 0 0 1em 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        border-bottom: 1px solid #ccc;  }
+    
+    .navbar ul {
+        list-style: none;
+        width: 800px;
+        margin: 0 auto;
+        padding: 0; }
+
+    .navbar li {
+        float: left;
+     }
+
+        
+    .navbar li a {
+        display: block;
+        padding: 8px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        border-right: 1px solid #ccc; }
+
+    .navbar li a:hover {
+            color:#c3b688;
+            background-color: #000000; }
+
+      
+
+     
+  
+    
+      h1{
+        text-align: center;
+        font-size:xx-large;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+        }
+    
+        h3{
+          font-family: "Gloria Hallelujah", cursive;
+          font-weight: 400;
+          font-style: normal;
+        }
+    
+        h2{
+          font-family: "Patrick Hand", cursive;
+          font-weight: 400;
+          font-style: normal;
+        }
+    
+        p{
+          font-family: "Josefin Sans", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 100;
+          font-style: normal;
+        }
+    
+    
+    
+    
+    .footerBottom{
+    background-color: #c3b688;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .footerBottom p{
+    color: rgb(0, 0, 0);
+    }
+    
+    .designer{
+        text-decoration: none;
+        font-weight: 400;
+        opacity: 0.7;
+        letter-spacing: 1px;
+        margin:0px 5px;
+    }
